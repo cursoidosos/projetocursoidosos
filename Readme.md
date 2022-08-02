@@ -1,0 +1,1 @@
+Projeto desenvolvido para a construção do site do Curso de Introdução às Tecnologias para Idosos, organizado pelo projeto "Meninas na Programação", e coordenado pela professora Márcia do IFSP - Campus Guarulhos

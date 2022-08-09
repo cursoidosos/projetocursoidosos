@@ -221,6 +221,36 @@ header img{
     border-left: 10px solid var(--background-color-3);
 }
 
+.botaoacessibilidade{
+    position: relative;
+    display: block;
+    color: var(--color-text-2);
+    font-size: 14px;
+    font-family: "montserrat";
+    text-decoration: none;
+    margin: 30px 0;
+    border: 2px solid var(--color-text-5);
+    padding: 8px;
+    text-transform: uppercase;
+    overflow: hidden;
+    transition: 0.5s all ease;
+    background-color: var(--background-color-4);
+    width: 100%;
+}
+
+.botaoacessibilidade::before{
+    width: 0%;
+    height: 100%;
+}
+
+.botaoacessibilidade:hover::before{
+    width: 100%;
+}
+
+.botaoacessibilidade:hover{
+    background-color: var(--color-text-3);
+}
+
 .btn{
     position: relative;
     display: block;

@@ -206,6 +206,13 @@ header img{
     border-radius: 2px;
 }
 
+footer{
+    width: 100%;
+    min-height: 250px;
+    background: #bf6515;
+    display: flex;
+}
+
 .acessibilidade{
     color: var(--color-text-2);
     background-color: var(--background-color-4);
@@ -521,6 +528,11 @@ header img{
     margin-top: 3%;
 }
 
+footer .boxs{
+    width: 320px;
+    min-height: 150px;
+    padding: 20px;
+}
 
 
 

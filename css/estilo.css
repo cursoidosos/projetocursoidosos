@@ -276,6 +276,13 @@ footer .boxs-foot:nth-child(4){
     background-color: var(--color-text-3);
 }
 
+.btn:hover{
+    background-color: var(--color-text-3);
+    width: auto;
+    text-decoration: underline;
+}
+
+
 .btn{
     position: relative;
     display: block;
@@ -291,7 +298,7 @@ footer .boxs-foot:nth-child(4){
     transition: 1s all ease;
 }
 
-.btn::before{
+/*.btn::before{
     background: var(--color-text-3);
     content: "";
     position: absolute;
@@ -300,7 +307,7 @@ footer .boxs-foot:nth-child(4){
     transform: translate(-50%,-50%);
     z-index: -1;
     transition: all 0.6s ease;
-}
+}*/
 
 .btn1::before{
     width: 0%;
